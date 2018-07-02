@@ -26,7 +26,7 @@ def sendmsg():
     msg = request.args.get('msg')
     token = request.args.get('token')
     if(str(token) == expected_token):
-        client = Client(login='50671540953', password='nRwt7pYSZsctc60cap2nWRktSns=')
+        client = Client(login='50671540953', password='qldAt6KaPtsTRLZZk9KA/m/G4wM=')
         res = client.send_message(to, msg)  
     
     else:
